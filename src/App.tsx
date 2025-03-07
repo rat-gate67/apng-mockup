@@ -79,16 +79,13 @@ function App() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">Supporting UN SDGs</h2>
           <div className="flex flex-wrap justify-center gap-6">
-            {[4, 9, 10, 16, 17].map((sdg) => (
+          {[4, 9, 10, 16, 17].map((sdg) => (
                 <div key={sdg} className="flex flex-col items-center">
                 <img 
-                  src={`src/images/Goal ${sdg}/E_WEB_${String(sdg).padStart(2, '0')}.png`} 
+                  src={`/images/Goal ${sdg}/E_WEB_${String(sdg).padStart(2, '0')}.png`} 
                   alt={`SDG ${sdg} icon`} 
                   className="h-20 w-20 mb-3" 
                 />
-                {/* <div className="bg-blue-100 px-4 py-2 rounded-full"> */}
-                  {/* <span className="font-semibold text-blue-800">SDG {sdg}</span> */}
-                {/* </div> */}
                 </div>
             ))}
           </div>
