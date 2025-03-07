@@ -18,7 +18,7 @@ function App() {
           <img src="/images/logo.png" alt="signed-IT logo" className="inline-block h-64 w-64 mb-4" />
         </div>
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
-          Communicate Better: <span className="text-blue-600">signed-IT!</span>
+          <span className="text-blue-600">signed-IT!</span>
         </h1>
         <p className="text-xl text-gray-600 mb-8">
           Tech meets Touch: Breaking Language Barriers
