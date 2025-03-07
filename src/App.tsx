@@ -35,23 +35,43 @@ function App() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
+            {/* AI-based sign language recognition and translation */}
             <FeatureCard
               icon={<Brain className="h-8 w-8" />}
-              title="AI Sign Language Recognition"
-              description="Advanced machine learning algorithms for accurate real-time translation"
-            />
-            <FeatureCard
-              icon={<CheckCircle className="h-8 w-8" />}
-              title="Certified Interpreter Verification"
-              description="Quality assurance through professional certification"
+              title="AI-Powered Sign Language Recognition and Translation"
+              description="Real-time conversion of sign language to text and speech"
             />
             <FeatureCard
               icon={<GraduationCap className="h-8 w-8" />}
-              title="Interactive Learning Tools"
-              description="Engaging educational resources for effective learning"
+              title="Smart AI-Assisted Learning Tools"
+              description="Optimized AI tools for effective learning"
             />
-          </div>
+            <FeatureCard
+              icon={<Glasses className="h-8 w-8" />}
+              title="Virtual Learning Platform Integration"
+              description="Seamless connection with various learning environments"
+            />
+
+            {/* Blockchain-based authentication */}
+            <FeatureCard
+              icon={<Fingerprint className="h-8 w-8" />}
+              title="Decentralized Authentication System"
+              description="Blockchain-based authentication and verification for sign language interpreters"
+            />
+
+            {/* Web3 interactive learning */}
+            <FeatureCard
+              icon={<Brain className="h-8 w-8" />}
+              title="AI-Powered Sign Language Instruction"
+              description="Personalized learning experience and immediate feedback"
+            />
+            <FeatureCard
+              icon={<CheckCircle className="h-8 w-8" />}
+              title="Blockchain Learning Outcome Verification"
+              description="System for securely recording and verifying student achievements"
+            />
+            </div>
         </div>
       </section>
 
