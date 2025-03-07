@@ -15,7 +15,7 @@ function App() {
       {/* Hero Section */}
       <header className="container mx-auto px-4 py-16 text-center">
         <div className="mb-8">
-          <img src="/src/images/logo.png" alt="signed-IT logo" className="inline-block h-64 w-64 mb-4" />
+          <img src="/images/logo.png" alt="signed-IT logo" className="inline-block h-64 w-64 mb-4" />
         </div>
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
           Communicate Better: <span className="text-blue-600">signed-IT!</span>
