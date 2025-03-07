@@ -5,7 +5,7 @@ import {
   Fingerprint, 
   Glasses, 
   GraduationCap, 
-  HandMetal,
+  // HandMetal,
   Users,
 } from 'lucide-react';
 
@@ -106,7 +106,8 @@ function App() {
   );
 }
 
-function FeatureCard({ icon, title, description }) {
+function FeatureCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
+  // function FeatureCard({ icon, title, description }) {
   return (
     <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-lg transition-shadow">
       <div className="text-blue-600 mb-4 flex justify-center">{icon}</div>
@@ -116,7 +117,7 @@ function FeatureCard({ icon, title, description }) {
   );
 }
 
-function AudienceCard({ icon, title, description }) {
+function AudienceCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
   return (
     <div className="bg-white p-6 rounded-xl shadow-md flex items-start gap-4">
       <div className="text-blue-600 flex-shrink-0">{icon}</div>
